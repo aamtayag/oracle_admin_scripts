@@ -20,16 +20,16 @@ Make sure the following are defined either in your environment or inside each sc
 
 # Directory Structure
 This is the recommended structure for backups, logs, and reports:
-   /u01/
-   ├── backup/
-   │    ├── oracle/               # Full and incremental backup files
-   │    ├── logs/                 # Log files from scripts
-   │    └── awr_reports/          # Generated AWR HTML reports
-   └── scripts/
-         ├── oracle_full_backup.sh
-         ├── oracle_incremental_backup.sh
-         ├── oracle_awr_report.sh
-         └── etc.
+   - /u01/
+   - ├── backup/
+   - │    ├── oracle/               # Full and incremental backup files
+   - │    ├── logs/                 # Log files from scripts
+   - │    └── awr_reports/          # Generated AWR HTML reports
+   - └── scripts/
+   -       ├── oracle_full_backup.sh
+   -       ├── oracle_incremental_backup.sh
+   -       ├── oracle_awr_report.sh
+   -       └── etc.
 
 # Repository Contents (for updating)
 
