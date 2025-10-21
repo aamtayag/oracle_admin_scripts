@@ -26,10 +26,10 @@ This is the recommended structure for backups, logs, and reports:
    - │    ├── logs/                 # Log files from scripts
    - │    └── awr_reports/          # Generated AWR HTML reports
    - └── scripts/
-   -       ├── oracle_full_backup.sh
-   -       ├── oracle_incremental_backup.sh
-   -       ├── oracle_awr_report.sh
-   -       └── etc.
+      - ├── oracle_full_backup.sh
+      - ├── oracle_incremental_backup.sh
+      - ├── oracle_awr_report.sh
+      - └── etc.
 
 # Repository Contents (for updating)
 
