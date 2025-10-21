@@ -18,6 +18,19 @@ Make sure the following are defined either in your environment or inside each sc
    - export ORACLE_HOME=/u01/app/oracle/product/19.0.0/dbhome_1
    - export PATH=$ORACLE_HOME/bin:$PATH
 
+# Directory Structure
+This is the recommended structure for backups, logs, and reports:
+   /u01/
+   ├── backup/
+   │    ├── oracle/               # Full and incremental backup files
+   │    ├── logs/                 # Log files from scripts
+   │    └── awr_reports/          # Generated AWR HTML reports
+   └── scripts/
+         ├── oracle_full_backup.sh
+         ├── oracle_incremental_backup.sh
+         ├── oracle_awr_report.sh
+         └── etc.
+
 # Repository Contents (for updating)
 
 | Script Name                          | Description                                                                                                   |
