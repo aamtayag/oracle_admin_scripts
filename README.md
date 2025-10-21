@@ -2,7 +2,7 @@
 
 # Description
 A collection of **automation scripts** for Oracle Database administration — including **full backups**, **incremental backups**, **AWR report generation**, performance tuning, and much more. These scripts are designed for **Linux environments** and can be easily integrated with **cron** 
-or any commercial automation tools for scheduled execution.
+or any commercial automation tool, such as Chef/Puppet, for scheduled execution.
 
 # Requirements
 Before using these scripts, ensure the following:
