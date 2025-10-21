@@ -1,8 +1,8 @@
 # Oracle Admin Scripts
 
 # Description
-A collection of **automation scripts** for Oracle Database administration — including **full backups**, **incremental backups**, **AWR report generation**, performance tuning, and much more. These scripts are designed for **Linux environments** and can be easily integrated with **cron** 
-or any commercial automation tool, such as Chef/Puppet, for scheduled execution.
+My repository of **automation scripts** for Oracle Database administration — including **full backups**, **incremental backups**, **AWR report generation**, performance tuning, and much more. These scripts are designed for **Linux environments** and can be easily integrated with **cron** 
+or any commercial automation tool, such as Chef/Ansible/Puppet, for scheduled execution.
 
 # Requirements
 Before using these scripts, ensure the following:
@@ -37,7 +37,4 @@ This is the recommended structure for backups, logs, and reports:
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | `oracle_full_backup.sh`              | Performs a **full RMAN database backup** with logs, email notifications, and automated cleanup                |
 | `oracle_incremental_backup.sh`       | Runs an **incremental RMAN Level 1 backup** every few hours, also with email alerts and log management        |
-| `oracle_awr_report.sh`               | Generates **AWR (Automatic Workload Repository)** reports for performance analysis and includes date-stamped reports  |
-
-
-
+| `oracle_awr_report.sh`               | Generates **AWR (Automatic Workload Repository)** reports for performance analysis and reports                |
