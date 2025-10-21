@@ -1,2 +1,1 @@
-# oracle_admin_scripts
-Oracle DBA Scripts
+# Oracle DBA Scripts for day-to-day operations
