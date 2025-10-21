@@ -32,9 +32,8 @@ This is the recommended structure for backups, logs, and reports:
       - └── etc.
 
 # Repository Contents (for updating)
-
 | Script Name                          | Description                                                                                                   |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| `oracle_full_backup.sh`              | Performs a **full RMAN database backup** with logs, email notifications, and automated cleanup                |
-| `oracle_incremental_backup.sh`       | Runs an **incremental RMAN Level 1 backup** every few hours, also with email alerts and log management        |
-| `oracle_awr_report.sh`               | Generates **AWR (Automatic Workload Repository)** reports for performance analysis and reports                |
+| `001_full_backup.sh`                 | Performs a **full RMAN database backup** with logs, email notifications, and automated cleanup                |
+| `002_incremental_backup.sh`          | Runs an **incremental RMAN Level 1 backup** every few hours, also with email alerts and log management        |
+| `002_awr_report.sh`                  | Generates **AWR (Automatic Workload Repository)** reports for performance analysis and reports                |
