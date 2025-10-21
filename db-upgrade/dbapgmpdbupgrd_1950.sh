@@ -1,14 +1,17 @@
 #!/bin/ksh
 
-##########################################################################
-### 
-### Oracle upgrade script from 19.4 to 19.5
-###
-### Pre-requisite checks:
-###    1. Make sure that no DBs and listeners are running
-###    2. Make sure that /poracle has enough disk space
-###
-##########################################################################
+# ===========================================================================
+# Author: Arnold Aristotle Tayag
+# Date created: 01-May-2015
+# Description:
+#   Oracle upgrade script from 19.4 to 19.5
+# Schedule: Adhoc
+# Pre-requisite checks:
+#    1. Make sure that no DBs and listeners are running
+#    2. Make sure that /poracle has enough disk space
+# Change Log:
+#
+# ===========================================================================
 
 export HOME1=/export/home1/oraclep/dba
 
